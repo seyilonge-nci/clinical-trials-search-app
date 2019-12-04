@@ -1,6 +1,11 @@
+
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+
 import React, { Fragment } from 'react';
 import { useSelector } from 'react-redux';
 import { Route, Switch } from 'react-router-dom';
+
 import './styles/main.scss';
 
 import SearchPage from './views/SearchPage';
